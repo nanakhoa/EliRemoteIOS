@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8096FD165C85BE00B645B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8096FC165C85BE00B645B4 /* UIKit.framework */; };
+		CE8096FF165C85BE00B645B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8096FE165C85BE00B645B4 /* Foundation.framework */; };
+		CE809701165C85BE00B645B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE809700165C85BE00B645B4 /* CoreGraphics.framework */; };
+		CE809707165C85BE00B645B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE809705165C85BE00B645B4 /* InfoPlist.strings */; };
+		CE809709165C85BF00B645B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE809708165C85BF00B645B4 /* main.m */; };
+		CE80970D165C85BF00B645B4 /* vncAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80970C165C85BF00B645B4 /* vncAppDelegate.m */; };
+		CE809710165C85BF00B645B4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE80970E165C85BF00B645B4 /* MainStoryboard_iPhone.storyboard */; };
+		CE809713165C85BF00B645B4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE809711165C85BF00B645B4 /* MainStoryboard_iPad.storyboard */; };
+		CE809716165C85BF00B645B4 /* vncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE809715165C85BF00B645B4 /* vncViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE8096F8165C85BE00B645B4 /* EliRemoteIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliRemoteIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8096FC165C85BE00B645B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE8096FE165C85BE00B645B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE809700165C85BE00B645B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE809704165C85BE00B645B4 /* EliRemoteIOS-Info.plist */ = {isa = PBXFileReference; path = "EliRemoteIOS-Info.plist"; sourceTree = "<group>"; };
+		CE809706165C85BE00B645B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE809708165C85BF00B645B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE80970A165C85BF00B645B4 /* EliRemoteIOS-Prefix.pch */ = {isa = PBXFileReference; path = "EliRemoteIOS-Prefix.pch"; sourceTree = "<group>"; };
+		CE80970B165C85BF00B645B4 /* vncAppDelegate.h */ = {isa = PBXFileReference; path = vncAppDelegate.h; sourceTree = "<group>"; };
+		CE80970C165C85BF00B645B4 /* vncAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vncAppDelegate.m; sourceTree = "<group>"; };
+		CE80970F165C85BF00B645B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CE809712165C85BF00B645B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CE809714165C85BF00B645B4 /* vncViewController.h */ = {isa = PBXFileReference; path = vncViewController.h; sourceTree = "<group>"; };
+		CE809715165C85BF00B645B4 /* vncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vncViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8096F5165C85BE00B645B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8096FD165C85BE00B645B4 /* UIKit.framework in Frameworks */,
+				CE8096FF165C85BE00B645B4 /* Foundation.framework in Frameworks */,
+				CE809701165C85BE00B645B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8096ED165C85BE00B645B4 = {
+			isa = PBXGroup;
+			children = (
+				CE809702165C85BE00B645B4 /* EliRemoteIOS */,
+				CE8096FB165C85BE00B645B4 /* Frameworks */,
+				CE8096F9165C85BE00B645B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8096F9165C85BE00B645B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8096F8165C85BE00B645B4 /* EliRemoteIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8096FB165C85BE00B645B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8096FC165C85BE00B645B4 /* UIKit.framework */,
+				CE8096FE165C85BE00B645B4 /* Foundation.framework */,
+				CE809700165C85BE00B645B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE809702165C85BE00B645B4 /* EliRemoteIOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE80970B165C85BF00B645B4 /* vncAppDelegate.h */,
+				CE80970C165C85BF00B645B4 /* vncAppDelegate.m */,
+				CE80970E165C85BF00B645B4 /* MainStoryboard_iPhone.storyboard */,
+				CE809711165C85BF00B645B4 /* MainStoryboard_iPad.storyboard */,
+				CE809714165C85BF00B645B4 /* vncViewController.h */,
+				CE809715165C85BF00B645B4 /* vncViewController.m */,
+				CE809703165C85BE00B645B4 /* Supporting Files */,
+			);
+			path = EliRemoteIOS;
+			sourceTree = "<group>";
+		};
+		CE809703165C85BE00B645B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE809704165C85BE00B645B4 /* EliRemoteIOS-Info.plist */,
+				CE809705165C85BE00B645B4 /* InfoPlist.strings */,
+				CE809708165C85BF00B645B4 /* main.m */,
+				CE80970A165C85BF00B645B4 /* EliRemoteIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8096F7165C85BE00B645B4 /* EliRemoteIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE809719165C85BF00B645B4 /* Build configuration list for PBXNativeTarget "EliRemoteIOS" */;
+			buildPhases = (
+				CE8096F4165C85BE00B645B4 /* Sources */,
+				CE8096F5165C85BE00B645B4 /* Frameworks */,
+				CE8096F6165C85BE00B645B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EliRemoteIOS;
+			productName = EliRemoteIOS;
+			productReference = CE8096F8165C85BE00B645B4 /* EliRemoteIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8096EF165C85BE00B645B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE8096F2165C85BE00B645B4 /* Build configuration list for PBXProject "EliRemoteIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE8096ED165C85BE00B645B4;
+			productRefGroup = CE8096F9165C85BE00B645B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8096F7165C85BE00B645B4 /* EliRemoteIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8096F6165C85BE00B645B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE809707165C85BE00B645B4 /* InfoPlist.strings in Resources */,
+				CE809710165C85BF00B645B4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CE809713165C85BF00B645B4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8096F4165C85BE00B645B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE809709165C85BF00B645B4 /* main.m in Sources */,
+				CE80970D165C85BF00B645B4 /* vncAppDelegate.m in Sources */,
+				CE809716165C85BF00B645B4 /* vncViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE809705165C85BE00B645B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE809706165C85BE00B645B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE80970E165C85BF00B645B4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE80970F165C85BF00B645B4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE809711165C85BF00B645B4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE809712165C85BF00B645B4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE809717165C85BF00B645B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE809718165C85BF00B645B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE80971A165C85BF00B645B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EliRemoteIOS/EliRemoteIOS-Prefix.pch";
+				INFOPLIST_FILE = "EliRemoteIOS/EliRemoteIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE80971B165C85BF00B645B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EliRemoteIOS/EliRemoteIOS-Prefix.pch";
+				INFOPLIST_FILE = "EliRemoteIOS/EliRemoteIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8096F2165C85BE00B645B4 /* Build configuration list for PBXProject "EliRemoteIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE809717165C85BF00B645B4 /* Debug */,
+				CE809718165C85BF00B645B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE809719165C85BF00B645B4 /* Build configuration list for PBXNativeTarget "EliRemoteIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80971A165C85BF00B645B4 /* Debug */,
+				CE80971B165C85BF00B645B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8096EF165C85BE00B645B4 /* Project object */;
+}
