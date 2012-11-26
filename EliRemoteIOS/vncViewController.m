@@ -9,6 +9,9 @@
 #import "vncViewController.h"
 
 @implementation vncViewController
+@synthesize txtEmail;
+@synthesize txtPassword;
+@synthesize lblStatus;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +29,9 @@
 
 - (void)viewDidUnload
 {
+    [self setTxtEmail:nil];
+    [self setTxtPassword:nil];
+    [self setLblStatus:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -55,10 +61,40 @@
 {
     // Return YES for supported orientations
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+        //return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+        if (interfaceOrientation == UIInterfaceOrientationPortrait) {    // Or whatever orientation it will be presented in.
+            return YES;
+        }
+        return NO;
     } else {
         return YES;
     }
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
+    [super touchesBegan:touches withEvent:event];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField*)textField{
+    NSInteger nextTag = textField.tag + 1;
+    // Try to find next responder
+    UIResponder* nextResponder = [textField.superview viewWithTag:nextTag];
+    if (nextResponder && [nextResponder isMemberOfClass:[UITextField class]]) {
+        // Found next responder, so set it.
+        [nextResponder becomeFirstResponder];
+    } else {
+        // Not found, so remove keyboard.
+        [textField resignFirstResponder];
+    }
+    return NO; // We do not want UITextField to insert line-breaks.
+}
+
+
+- (IBAction)ConnectButtonClicked:(id)sender {
+    NSMutableString* mutString = [[NSMutableString alloc] initWithString:@""];
+    [mutString appendFormat:@"%@ %@",self.txtEmail.text, self.txtPassword.text];
+    self.lblStatus.text = mutString;
+    
+}
 @end

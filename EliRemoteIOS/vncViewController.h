@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface vncViewController : UIViewController
+@interface vncViewController : UIViewController <UITextFieldDelegate>
+@property (strong, nonatomic) IBOutlet UITextField *txtEmail;
+@property (strong, nonatomic) IBOutlet UITextField *txtPassword;
+@property (strong, nonatomic) IBOutlet UILabel *lblStatus;
+- (IBAction)ConnectButtonClicked:(id)sender;
 
 @end
