@@ -97,4 +97,8 @@
     self.lblStatus.text = mutString;
     
 }
+
+- (IBAction)testbuttonclick:(id)sender {
+    [self performSegueWithIdentifier:@"testsegue" sender:self];
+}
 @end

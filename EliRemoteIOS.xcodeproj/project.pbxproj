@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE02125F1664790500505E02 /* backbottom.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212511664790500505E02 /* backbottom.png */; };
+		CE0212601664790500505E02 /* backup.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212521664790500505E02 /* backup.png */; };
+		CE0212611664790500505E02 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212531664790500505E02 /* check.png */; };
+		CE0212621664790500505E02 /* client.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212541664790500505E02 /* client.png */; };
+		CE0212631664790500505E02 /* copybottom.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212551664790500505E02 /* copybottom.png */; };
+		CE0212641664790500505E02 /* copyup.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212561664790500505E02 /* copyup.png */; };
+		CE0212651664790500505E02 /* deletebottom.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212571664790500505E02 /* deletebottom.png */; };
+		CE0212661664790500505E02 /* deleteup.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212581664790500505E02 /* deleteup.png */; };
+		CE0212671664790500505E02 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0212591664790500505E02 /* folder.png */; };
+		CE0212681664790500505E02 /* newbottom.png in Resources */ = {isa = PBXBuildFile; fileRef = CE02125A1664790500505E02 /* newbottom.png */; };
+		CE0212691664790500505E02 /* newup.png in Resources */ = {isa = PBXBuildFile; fileRef = CE02125B1664790500505E02 /* newup.png */; };
+		CE02126A1664790500505E02 /* rename.png in Resources */ = {isa = PBXBuildFile; fileRef = CE02125C1664790500505E02 /* rename.png */; };
+		CE02126B1664790500505E02 /* server.png in Resources */ = {isa = PBXBuildFile; fileRef = CE02125D1664790500505E02 /* server.png */; };
+		CE02126C1664790500505E02 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = CE02125E1664790500505E02 /* uncheck.png */; };
+		CE02127016647AEA00505E02 /* vncTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02126F16647AE900505E02 /* vncTransferViewController.m */; };
 		CE8096FD165C85BE00B645B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8096FC165C85BE00B645B4 /* UIKit.framework */; };
 		CE8096FF165C85BE00B645B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8096FE165C85BE00B645B4 /* Foundation.framework */; };
 		CE809701165C85BE00B645B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE809700165C85BE00B645B4 /* CoreGraphics.framework */; };
@@ -123,6 +138,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0212511664790500505E02 /* backbottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbottom.png; path = "../../../Trust image/backbottom.png"; sourceTree = "<group>"; };
+		CE0212521664790500505E02 /* backup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backup.png; path = "../../../Trust image/backup.png"; sourceTree = "<group>"; };
+		CE0212531664790500505E02 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = "../../../Trust image/check.png"; sourceTree = "<group>"; };
+		CE0212541664790500505E02 /* client.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = client.png; path = "../../../Trust image/client.png"; sourceTree = "<group>"; };
+		CE0212551664790500505E02 /* copybottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copybottom.png; path = "../../../Trust image/copybottom.png"; sourceTree = "<group>"; };
+		CE0212561664790500505E02 /* copyup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copyup.png; path = "../../../Trust image/copyup.png"; sourceTree = "<group>"; };
+		CE0212571664790500505E02 /* deletebottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deletebottom.png; path = "../../../Trust image/deletebottom.png"; sourceTree = "<group>"; };
+		CE0212581664790500505E02 /* deleteup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleteup.png; path = "../../../Trust image/deleteup.png"; sourceTree = "<group>"; };
+		CE0212591664790500505E02 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder.png; path = "../../../Trust image/folder.png"; sourceTree = "<group>"; };
+		CE02125A1664790500505E02 /* newbottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newbottom.png; path = "../../../Trust image/newbottom.png"; sourceTree = "<group>"; };
+		CE02125B1664790500505E02 /* newup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newup.png; path = "../../../Trust image/newup.png"; sourceTree = "<group>"; };
+		CE02125C1664790500505E02 /* rename.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rename.png; path = "../../../Trust image/rename.png"; sourceTree = "<group>"; };
+		CE02125D1664790500505E02 /* server.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = server.png; path = "../../../Trust image/server.png"; sourceTree = "<group>"; };
+		CE02125E1664790500505E02 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uncheck.png; path = "../../../Trust image/uncheck.png"; sourceTree = "<group>"; };
+		CE02126E16647AE900505E02 /* vncTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vncTransferViewController.h; sourceTree = "<group>"; };
+		CE02126F16647AE900505E02 /* vncTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vncTransferViewController.m; sourceTree = "<group>"; };
 		CE8096F8165C85BE00B645B4 /* EliRemoteIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliRemoteIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8096FC165C85BE00B645B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE8096FE165C85BE00B645B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -309,9 +340,11 @@
 				CE809727165DDE0A00B645B4 /* vncServerListViewController.m */,
 				CE9D315B166310020012097C /* vncTiledImageViewController.m */,
 				CE809715165C85BF00B645B4 /* vncViewController.m */,
-				CE809711165C85BF00B645B4 /* MainStoryboard_iPad.storyboard */,
 				CE80970E165C85BF00B645B4 /* MainStoryboard_iPhone.storyboard */,
+				CE809711165C85BF00B645B4 /* MainStoryboard_iPad.storyboard */,
 				CE809703165C85BE00B645B4 /* Supporting Files */,
+				CE02126E16647AE900505E02 /* vncTransferViewController.h */,
+				CE02126F16647AE900505E02 /* vncTransferViewController.m */,
 			);
 			path = EliRemoteIOS;
 			sourceTree = "<group>";
@@ -331,6 +364,20 @@
 		CE809758165DE3AC00B645B4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CE0212511664790500505E02 /* backbottom.png */,
+				CE0212521664790500505E02 /* backup.png */,
+				CE0212531664790500505E02 /* check.png */,
+				CE0212541664790500505E02 /* client.png */,
+				CE0212551664790500505E02 /* copybottom.png */,
+				CE0212561664790500505E02 /* copyup.png */,
+				CE0212571664790500505E02 /* deletebottom.png */,
+				CE0212581664790500505E02 /* deleteup.png */,
+				CE0212591664790500505E02 /* folder.png */,
+				CE02125A1664790500505E02 /* newbottom.png */,
+				CE02125B1664790500505E02 /* newup.png */,
+				CE02125C1664790500505E02 /* rename.png */,
+				CE02125D1664790500505E02 /* server.png */,
+				CE02125E1664790500505E02 /* uncheck.png */,
 				CEF80F4B166326DC00621CF0 /* WeCanDoIt_25_0_0.png */,
 				CEF80F4C166326DC00621CF0 /* WeCanDoIt_25_0_1.png */,
 				CEF80F4D166326DC00621CF0 /* WeCanDoIt_25_0_2.png */,
@@ -584,6 +631,20 @@
 				CEF81008166326DC00621CF0 /* WeCanDoIt_100_6_7.png in Resources */,
 				CEF81009166326DC00621CF0 /* WeCanDoIt_100_6_8.png in Resources */,
 				CEF8100A166326DC00621CF0 /* WeCanDoIt_100_6_9.png in Resources */,
+				CE02125F1664790500505E02 /* backbottom.png in Resources */,
+				CE0212601664790500505E02 /* backup.png in Resources */,
+				CE0212611664790500505E02 /* check.png in Resources */,
+				CE0212621664790500505E02 /* client.png in Resources */,
+				CE0212631664790500505E02 /* copybottom.png in Resources */,
+				CE0212641664790500505E02 /* copyup.png in Resources */,
+				CE0212651664790500505E02 /* deletebottom.png in Resources */,
+				CE0212661664790500505E02 /* deleteup.png in Resources */,
+				CE0212671664790500505E02 /* folder.png in Resources */,
+				CE0212681664790500505E02 /* newbottom.png in Resources */,
+				CE0212691664790500505E02 /* newup.png in Resources */,
+				CE02126A1664790500505E02 /* rename.png in Resources */,
+				CE02126B1664790500505E02 /* server.png in Resources */,
+				CE02126C1664790500505E02 /* uncheck.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +664,7 @@
 				CE9D315C166310020012097C /* vncTiledImageViewController.m in Sources */,
 				CE9D3162166310920012097C /* TapDetectingView.m in Sources */,
 				CE9D3163166310920012097C /* TiledScrollView.m in Sources */,
+				CE02127016647AEA00505E02 /* vncTransferViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

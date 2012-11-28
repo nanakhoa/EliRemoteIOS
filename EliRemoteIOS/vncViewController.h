@@ -13,5 +13,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *txtPassword;
 @property (strong, nonatomic) IBOutlet UILabel *lblStatus;
 - (IBAction)ConnectButtonClicked:(id)sender;
+- (IBAction)testbuttonclick:(id)sender;
 
 @end
